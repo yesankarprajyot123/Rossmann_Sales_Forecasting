@@ -183,17 +183,14 @@ This solution helps businesses:
 
 # 📸 Application Preview
 
-## Homepage
 
-📌 Add screenshot here
+## Homepage
 
 ![Homepage](images/homepage.png)
 
 ---
 
 ## Prediction Result
-
-📌 Add screenshot here
 
 ![Prediction Result](images/prediction.png)
 
