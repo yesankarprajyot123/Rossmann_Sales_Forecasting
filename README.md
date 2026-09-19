@@ -6,11 +6,10 @@ A Machine Learning web application that predicts future store sales using Linear
 
 # 🚀 Live Demo
 
-(Add Your Streamlit Link Here)
+Experience the live Rossmann Store Sales Forecasting application here:
 
-Example:
-
-https://your-app-name.streamlit.app
+### 🌐 Live Application
+https://rossmann-sales-prajyot.streamlit.app/
 
 ---
 
