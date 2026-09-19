@@ -6,9 +6,8 @@ A Machine Learning web application that predicts future store sales using Linear
 
 # 🚀 Live Demo
 
-Experience the live Rossmann Store Sales Forecasting application here:
-
 ### 🌐 Live Application
+
 https://rossmann-sales-prajyot.streamlit.app/
 
 ---
@@ -101,7 +100,7 @@ Performed:
 
 - Saved model using Joblib
 - Built Streamlit Web Application
-- Enabled real-time sales prediction
+- Enabled Real-Time Sales Prediction
 
 ---
 
@@ -122,6 +121,38 @@ Closed stores generated very low or zero sales.
 ### Seasonality
 
 Sales showed noticeable monthly variations.
+
+---
+
+# 📊 SQL Analysis
+
+SQL was used to analyze the Rossmann dataset and generate business insights before model development.
+
+### Analysis Performed
+
+- Promotion Impact on Sales
+- Day-wise Sales Analysis
+- Top Performing Stores
+- Average Sales by Store
+- Open vs Closed Store Analysis
+- Customer Behavior Analysis
+- High Revenue Store Identification
+
+### Tools Used
+
+- PostgreSQL
+- SQL
+- pgAdmin
+
+### Sample Query
+
+```sql
+SELECT
+    promo,
+    AVG(sales) AS avg_sales
+FROM rossmann
+GROUP BY promo;
+```
 
 ---
 
@@ -172,16 +203,15 @@ The model successfully explains approximately 85.55% of the variation in store s
 
 This solution helps businesses:
 
-- Forecast future sales
-- Optimize inventory management
-- Improve promotion planning
-- Support decision making
-- Improve operational efficiency
+- Forecast Future Sales
+- Optimize Inventory Management
+- Improve Promotion Planning
+- Support Business Decision Making
+- Improve Operational Efficiency
 
 ---
 
 # 📸 Application Preview
-
 
 ## Homepage
 
@@ -195,29 +225,49 @@ This solution helps businesses:
 
 ---
 
+# 📈 Future Improvements
+
+Future enhancements for this project include:
+
+- Advanced Machine Learning Models (Random Forest, XGBoost)
+- Hyperparameter Tuning
+- Interactive Power BI Dashboard
+- Automated Data Pipeline
+- Cloud Deployment
+- Real-Time Sales Forecasting
+- Additional Feature Engineering
+
+---
+
 # 📂 Project Structure
 
 ```text
 Rossmann_Sales_Forecasting/
-│
+
 ├── app.py
+├── train_model.py
 ├── requirements.txt
 ├── README.md
-│
+
 ├── data/
 │   ├── train.csv
 │   └── store.csv
-│
-├── models/
+
+├── model/
 │   └── sales_model.pkl
-│
+
+├── sql/
+│   └── analysis.sql
+
 ├── notebooks/
 │   └── Rossmann_Sales_Forecasting.ipynb
-│
-└── images/
-    ├── homepage.png
-    └── prediction.png
+
+├── images/
+│   ├── homepage.png
+│   └── prediction.png
 ```
+
+---
 
 # 🛠 Technologies Used
 
@@ -227,6 +277,7 @@ Rossmann_Sales_Forecasting/
 - Matplotlib
 - Seaborn
 - Scikit-Learn
+- PostgreSQL
 - SQL
 - Power BI
 - Streamlit
@@ -236,25 +287,25 @@ Rossmann_Sales_Forecasting/
 
 # ▶️ Run Locally
 
-Clone Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/yesankarprajyot123/Rossmann_Sales_Forecasting.git
 ```
 
-Move to Project Folder
+### Move to Project Folder
 
 ```bash
 cd Rossmann_Sales_Forecasting
 ```
 
-Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run Streamlit App
+### Run Streamlit App
 
 ```bash
 streamlit run app.py
@@ -290,15 +341,15 @@ Aspiring Data Analyst passionate about transforming data into actionable busines
 
 # 🔗 Connect With Me
 
-💼 LinkedIn
+### 💼 LinkedIn
 
 https://www.linkedin.com/in/prajyot-yesankar-79215b258/
 
-💻 GitHub
+### 💻 GitHub
 
 https://github.com/yesankarprajyot123
 
-📧 Email
+### 📧 Email
 
 yesankarprajyot@gmail.com
 
